@@ -3,8 +3,6 @@
 @import "general/basics.css";
 @import "general/button.css";
 @import "general/form.css";
-@import "home.css";
-@import "general/icons.css";
 @import "site/layout.css";
 @import "site/header.css";
 @import "site/cover.css";
@@ -22,3 +20,4 @@
 @import "misc/utils.css";
 @import "misc/animations.css";
 @import "misc/dark.css";
+@import "general/home.css"; /* Ensure home.css is imported last */
