@@ -1,0 +1,41 @@
+{{!< default}}
+
+<main id="main">
+    <section class="p-outer">
+        <div class="p-inner p-hero">
+            <div class="p-hero-left">
+            <div>
+                <h1>Copernic - the first digital market for space art & assets</h1>
+                <p>We tokenize space assets and enable new revenue by providing access to the wider commercial and retail markets.</p>
+                <p>Democratizing access to space assetsCommercialize your space assets on SpaceMart and receive unique requests from prospective buyers.</p>
+            </div>
+            <div class="p-hero-buttons">
+                {{! Launches the Ghost membership portal }}
+                <button data-portal="signup">Subscribe</button>
+                {{! Link to an about page }}
+                <a href="https://copernicspace.com">Main site &rarr;</a>
+            </div>
+            </div>
+            <div class="p-hero-right">
+            {{! Loads the your cover image as defined in Ghost admin }}
+            <img src="{{img_url @site.cover_image size="l"}}" alt="Copernic" />
+            </div>
+        </div>
+    </section>
+
+    <section class="p-outer">
+        <div class="p-inner">
+            <h2>Latest Articles</h2>
+            <div class="p-posts-grid">
+                {{! Use the foreach helper to loop through available posts }}
+                {{#foreach posts}}
+                <article class="p-post-card">
+                    {{! Use the img_url helper to bring in the post's feature image. }}
+                    <img src="{{img_url feature_image size="m"}}" alt="{{feature_image_alt}}" />
+                    <h3><a href="{{url}}">{{title}}</a></h3>
+                </article>
+                {{/foreach}}
+            </div>
+        </div>
+    </section>
+</main>
