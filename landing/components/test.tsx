@@ -20,14 +20,14 @@ export default function Component() {
         />
         <div className="absolute bottom-0 w-full flex flex-col md:flex-row items-center justify-center gap-4 pb-4">
           <Link
-            href="https://copernic-space.ghost.io/"
+            href="https://copernic-space.ghost.io/#/portal"
             className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
             prefetch={false}
           >
             Subscribe
           </Link>
           <Link
-            href="https://copernicspace.com/space-passports#rec566598157"
+            href="https://copernicspace.com/space-passports"
             className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
             prefetch={false}
           >
@@ -56,7 +56,7 @@ export default function Component() {
         <div className="container mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <img
-              src="https://optim.tildacdn.one/tild6138-3033-4438-b535-646134613234/-/format/webp/Frame_139_1.png"
+              src="https://optim.tildacdn.one/tild3830-3939-4133-b737-393335396564/-/resize/418x/-/format/webp/Card_Closed.png"
               alt="Article Cover"
               className="w-full h-[300px] object-cover rounded-lg"
             />
@@ -230,8 +230,7 @@ export default function Component() {
         <div className="container mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <img
-              src="https://optim.tildacdn.one/tild6138-3033-4438-b535-646134613234/-/format/webp/Frame_139_1.png"
-              alt="Secondary CTA"
+              src='https://copernic-space.ghost.io/content/images/size/w960/2024/07/1000014918.webp'
               className="w-full h-[300px] object-cover rounded-lg"
             />
           </div>
@@ -253,22 +252,6 @@ export default function Component() {
               Learn more
             </Link>
           </div>
-        </div>
-      </section>
-      <section className="py-12 md:py-16 px-4 md:px-6 bg-muted">
-        <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-2xl font-bold mb-4">Visit Our Newsletter</h2>
-          <p className="text-lg text-muted-foreground mb-6">
-            Head over to our newsletter to view all our development & platform
-            updates and ask any other questions you may have.
-          </p>
-          <Link
-            href="https://copernic-space.ghost.io/"
-            className="inline-flex h-10 items-center justify-center rounded-md bg-tertiary px-8 text-sm font-medium text-tertiary-foreground shadow transition-colors hover:bg-tertiary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-            prefetch={false}
-          >
-            Read more
-          </Link>
         </div>
       </section>
     </div>

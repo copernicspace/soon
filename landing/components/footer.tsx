@@ -24,8 +24,8 @@ export function Twofooter() {
             </div>
           </div>
           <div className="flex items-center gap-4 text-sm text-muted-foreground">
-            <Link href="https://copernicspace.com/" className="hover:text-foreground" prefetch={false}>
-              Documentation
+            <Link href="https://drive.google.com/file/d/10V7HveWZMnjVxsKdE0h-VQNtXKLDRmUK/view" className="hover:text-foreground" prefetch={false}>
+              Litepaper
             </Link>
             <Separator orientation="vertical" className="h-4" />
             <Link href="https://github.com/copernicspace" className="hover:text-foreground" prefetch={false}>
