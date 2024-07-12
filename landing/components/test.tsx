@@ -20,14 +20,14 @@ export default function Component() {
         />
         <div className="absolute bottom-0 w-full flex flex-col md:flex-row items-center justify-center gap-4 pb-4">
           <Link
-            href="#"
+            href="https://copernic-space.ghost.io/"
             className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
             prefetch={false}
           >
             Subscribe
           </Link>
           <Link
-            href="#"
+            href="https://copernicspace.com/space-passports#rec566598157"
             className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
             prefetch={false}
           >
@@ -68,7 +68,7 @@ export default function Component() {
               development and how you can stay involved
             </p>
             <Link
-              href="#"
+              href="https://copernic-space.ghost.io/spacemart-platform-development-log-1/"
               className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
               prefetch={false}
             >
@@ -246,7 +246,7 @@ export default function Component() {
               missions.
             </p>
             <Link
-              href="#"
+              href="https://copernicspace.com/space-passports#rec566598157"
               className="inline-flex h-10 items-center justify-center rounded-md bg-secondary px-8 text-sm font-medium text-secondary-foreground shadow transition-colors hover:bg-secondary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
               prefetch={false}
             >
@@ -263,7 +263,7 @@ export default function Component() {
             updates and ask any other questions you may have.
           </p>
           <Link
-            href="#"
+            href="https://copernic-space.ghost.io/"
             className="inline-flex h-10 items-center justify-center rounded-md bg-tertiary px-8 text-sm font-medium text-tertiary-foreground shadow transition-colors hover:bg-tertiary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
             prefetch={false}
           >
